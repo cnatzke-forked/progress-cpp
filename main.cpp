@@ -1,6 +1,6 @@
 #include <iostream>
 #include <unistd.h>
-#include "ProgressBar.hpp"
+#include "progress_bar.h"
 
 /* Example usage of ProgressBar */
 int main() {
