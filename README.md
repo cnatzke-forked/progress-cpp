@@ -4,7 +4,7 @@ Progress-CPP
 A flexible ASCII progress bar for your console based C++ projects.
 
 ### Usage
-Progress is a header-only library and can be used by simply including the `ProgressBar.hpp` header file.
+Progress is a header-only library and can be used by simply including the `progress_bar.h` header file.
 
 The bar takes the following options at initialization
 - Limit: the total number of ticks that need to be completed
@@ -13,7 +13,7 @@ The bar takes the following options at initialization
 - Incomplete Char: the character to indicate pending. (defaults to ' ')
 
 ```c++
-#include "ProgressBar.hpp"
+#include "progress_bar.h"
 
 int main() {
 
